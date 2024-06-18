@@ -1,0 +1,69 @@
+Npx is a node pakage executor
+Create-Reqact-app is a utility like one softwore then give project Name
+
+npx create-react-app
+
+using vite we can create custom Project.
+
+How read react project and packages 
+first open package.json file its a entry point. and check project name version and dependency.
+React and React-dom is a main libreay
+web-vitals checking how your website performe.
+
+// Package.json file inside this file we will see all the dependency, vserion script etc
+
+Script is a actually run a project or ready for production.
+
+Strat : Dev enviroment run.
+Build : Production envirmment
+test : to run all test cases
+eject: 
+
+To run project we hvae to Strat Script 
+Start Script npm run start
+
+When we upload ur application or web build folder will run and serve to user 
+
+// Using Vite create project
+
+Use command:  npm create vite
+Give Project name
+select Framework
+select vairant
+
+This not give you node modules for that we have to manually install node modules  using npm install command
+for run command "npm run dev"
+DevDependence is use for only devlopment.
+
+// SRC Folder
+
+// Project file Structure.
+
+Package-lock.json file is also consider dependencey but its lock dependancy like its working this version only.
+readme.md is markup file.
+package.json file store node modeule dependancy.
+
+// Public folder.
+
+manifest file use for mobile device only to show meta tag.
+Index.html is main page its SPA Single page application. using DOM manuplation.
+// React and React dom is a main libraray
+// Import React from 'react' is a core foundational libray it will take referances.
+// Import ReactDOM from 'react-dom/client'; its a implementation of web.
+
+
+React create its own DOM its called virtual dom. in this have method createRoot(document.getElementById('root'));
+ex const root = ReactDOM.createroot(document.getElementById('root'));
+root.render{
+    <!-- <React.StrictMode> -->
+    <!-- <App/> -->
+    <!-- </React.StrickMode> -->
+}
+
+react-script is a responsible to run index.html file to index.js file.
+
+
+// Vite 
+In this index.html file giving the out side of public and SRc folder.
+inside this there is no dependancy in package.json file to run index.htm file to main.js
+its directly given script tag in index.html file which is main.jsx
