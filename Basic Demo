@@ -76,3 +76,16 @@ for use hooks we need to import useState
 
 useState is resposible for change state like propogate in UI
 Uing use state we are two value. zeroth index will get any variable and second will give function.
+
+
+
+// Vitual DOM
+Createroot create a DOM like structor and check main DOM and virtual Dom 
+class is reserve keyword in jsx so we have to use className.
+
+Props give us Object inside this default property hidden scop[[protptype]]
+
+for use props as a object we need to create on object first and call with declaring variable = object in {}. We can also create array and access the same array in object
+
+Create componenet , how to pass props . passing value in component using props 
+
