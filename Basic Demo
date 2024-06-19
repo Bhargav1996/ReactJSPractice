@@ -67,3 +67,12 @@ react-script is a responsible to run index.html file to index.js file.
 In this index.html file giving the out side of public and SRc folder.
 inside this there is no dependancy in package.json file to run index.htm file to main.js
 its directly given script tag in index.html file which is main.jsx
+
+
+//Hooks 
+Throgh hooks UI data will be update in react.
+React control UI update
+for use hooks we need to import useState
+
+useState is resposible for change state like propogate in UI
+Uing use state we are two value. zeroth index will get any variable and second will give function.
