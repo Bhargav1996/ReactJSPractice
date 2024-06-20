@@ -99,4 +99,13 @@ useCallback hooks take two parameter one is function and second is dependancy in
 useEffect Hokks is  a lets you synchronize a cpmonent with a externl system when page load first useEffect will run
 no need to store in variable its also take two parameters one is function second is dependancy in Array format
 
-useRef is a reference use if we want to take referance of anything will use useRef hook
+useRef is a reference use if we want to take referance of anything will use useRef hook.
+
+remarkable compoment resuability.
+
+Hooks is function [vairable, functio] hooks purly return JS not jsx  custom hook also use defualt hooks like use effect use state.
+
+when component mount for that we have one hook that is useEffect
+rember key in loops in react 
+
+useID hooks for generating uniqe ids that can be passed t accesbility attributes.
