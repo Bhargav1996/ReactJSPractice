@@ -115,3 +115,16 @@ Link is use place of a tag if u use a tag page will be reload or refresh.  inlin
 NavLink its provide additoanl things 
 
 React Outlate is use layout as a base it will give same page but content will be change.
+
+
+Context API == State managemet
+context API means global variable to state manage. In this is pure js so no need to use jsx extesntion.
+steps 
+
+First import React 
+then use React.createContext() method and store this in any variable 
+than  export default context variable 
+ever context is provider. all componenet wrap with UserContext so it will become a provider. and UserContext have global access of all that wrap componenet. and all component can direcltly take access of all  state through UserContext.
+
+Tow way to create provide
+
