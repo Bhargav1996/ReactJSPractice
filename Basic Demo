@@ -109,3 +109,9 @@ when component mount for that we have one hook that is useEffect
 rember key in loops in react 
 
 useID hooks for generating uniqe ids that can be passed t accesbility attributes.
+
+React router dom
+Link is use place of a tag if u use a tag page will be reload or refresh.  inlink expect href we use to="
+NavLink its provide additoanl things 
+
+React Outlate is use layout as a base it will give same page but content will be change.
